@@ -1,0 +1,91 @@
+    body {
+    background-image: url(images/background1.jpg);
+    -webkit-background-size: cover;
+    -moz-backround-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 1em;
+    }
+    p {
+        font-size: 28px;
+        color:aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+        border-color:aliceblue;
+        border-style: solid;
+        margin-top: 3em;
+        border-width: 3px;
+    }
+    footer { 
+       border-top: 5px solid #57b1dc;
+       text-align: center;
+       padding-top: 1em;
+       font-family: 'Times New Roman', Times, serif;
+   }
+   footer img {
+       width: 60px;
+       height: 60px;
+       margin-left: .5em;
+       margin-right: .5em; 
+   } 
+
+    li {
+        font-size: 25px;
+        color: #4fb4e4;
+        margin: 15px 0;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    dd {
+        font-size: 25px;
+        color:aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    table{
+        color:aliceblue;
+        border-collapse: collapse;
+        font-size: 28px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    table,th,td{
+        border: 3px solid aliceblue;
+    }
+    th, td{
+        padding: 15px;
+    }
+    th{
+        text-align: left;
+    }
+   h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 5px solid #57b1dc;
+    margin-top: 30px;
+    color: #57b1dc;
+    font-size: 60px;
+   }
+   h2 {
+    color: #4fb4e4;
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+   }
+   h3 {
+       color: #4fb4e4;
+       font-size: 40px;
+       font-family: 'Times New Roman', Times, serif;
+   }
+   h4 {
+       color: #4fb4e4;
+       font-size: 40px;
+       font-family: 'Times New Roman', Times, serif;
+   }
+   header {
+       border-color:aliceblue;
+       border-style: solid;
+       border-width: 3px;
+       width: 300px;
+   }

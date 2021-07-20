@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> About you! </title>
+        <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <h1> More about you gamer! </h1>
+
+    <form action = "/gamer.php" method = "POST">
+
+    <fieldset>
+
+        <legend>Information about you! </legend>
+
+        <p> If we get to know our user base, we can create more content towards the specific game and position of player! </p>
+
+        <ol>
+            <li> <label for = "IG"> In-Game Name:</label>
+                <input type = "text" name = "IG" id = "IG"> </li>
+
+            <li> Dota 2 or LoL? : <input type = "text" list = "DL" name = "DL">
+                <datalist id = "DL">
+                    <option value = "Dota 2"></option>
+                    <option value = "League of Legends"></option>
+                </datalist>
+            </li>
+
+            <li> <label for = "Position"> Which role or position do you main?: </label>
+                <input type = "text" name = "Position" id = "Position"> </li>
+
+            <li> <label for = "FHC?"> What is your favorite Hero or Champion?: </label>
+                <input type = "text" name = "FHC" id = "FHC"> </li>
+
+            <li> <label for = "DotaBuff"> DotaBuff: </label>
+                <input type = "url" name = "DotaBuff" id = "DotaBuff"> </li>
+
+            <li> Do you play other games?: <input type = "text" list = "YN" name = "OtherGames">
+                <datalist id = "YN">
+                    <option value = "Yes"></option>
+                    <option value = "No"></option>
+                </datalist>
+            </li>
+
+            <li> Would you be intrested in esports for either games?: <input type = "text" list = "YN" name = "Esports">
+                <datalist id = "YN">
+                    <option value = "Yes"></option>
+                    <option value = "No"></option>
+                </datalist>
+            </li>
+
+            <li> <label> How are you enjoying the website so far (0 to 10) <input type = "range" name = satisfaction" min = "0" max = "10" step = "1"> </label></li>
+
+        </ol>
+
+        <p><input type = "Submit" value = "Official MOBA gamer!"> <input tyle = "reset" value = "Restart"></p>
+
+    </fieldset>
+
+    </form>
+    <footer>
+        <p> Check out my twitter & twitch for more gaming updates! <a href = "https://twitter.com/mehere_patel" target="_blank">  <img alt = "Twitter" src = "images/twitter.png"></a> 
+          <a href = "https://twitch.tv/skippybutterboy/" target="_blank"> <img alt = "Twitch" src = "images/twitch.png"></a></p>  
+</body>
